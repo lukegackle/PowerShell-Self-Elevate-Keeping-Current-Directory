@@ -1,0 +1,2 @@
+# PowerShell-Self-Elevate-Keeping-Current-Directory
+This PowerShell Script will self elevate if required while keeping the current working directory, the script saves the location as a variable and passes it through to the new elevated window so the current working directory is kept, the new window then sets the location from the argument. This script is a modification of the script located at https://superuser.com/questions/747254/powershell-elevation-loses-current-directory
