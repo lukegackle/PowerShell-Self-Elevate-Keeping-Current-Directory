@@ -29,7 +29,7 @@ else
     Start-Sleep -Seconds $Delay
 }
 if($Loc.Length -gt 1){
-Set-Location $Loc.Substring(1,$Loc.Length-1)
+Set-Location $($Loc.Substring(1,$Loc.Length-1)).Trim()
 }
 
 #Your Script Here...
